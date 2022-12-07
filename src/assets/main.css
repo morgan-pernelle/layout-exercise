@@ -1,0 +1,27 @@
+:root {
+  --background-color: rgb(5, 10, 24);
+  --border-color: rgb(255, 255, 255, 0.1);
+}
+
+body {
+  background-color: var(--background-color);
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  margin: 0;
+  overflow: hidden;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+h1, h2, h3, a, p, span {
+  font-family: "Rubik", sans-serif;
+  font-weight: 400;
+  color: white
+}
+
+a {
+  text-decoration: none;
+}
